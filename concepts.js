@@ -1,4 +1,4 @@
-let a = 5;
+let a = 5; // this is global context thats why we can access it from anywhere
 function add(num1, num2){
     const result = num1 + num2 + a ;
     return result;
